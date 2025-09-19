@@ -1,7 +1,9 @@
 # calculadora-sdlc
+
 Pequeño ejercicio practico
 
-Version con;
+## Programa inlcuye
+
 - Suma
 - Resta
 - Division
@@ -10,5 +12,6 @@ Version con;
 - potencia
 - Tablas de multiplicar
 
+## Changelog
 
-V 1.0.1
+### v0.1
