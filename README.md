@@ -15,3 +15,5 @@ Pequeño ejercicio practico
 ## Changelog
 
 ### v0.1
+
+- Se sube repositorio base.
