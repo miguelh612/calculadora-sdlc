@@ -14,6 +14,10 @@ Pequeño ejercicio practico
 
 ## Changelog
 
+### v1.0
+
+- Version estable de "Calculadora".
+
 ### v0.7
 
 - Se añade opción de 'Salir'.
