@@ -14,6 +14,11 @@ Pequeño ejercicio practico
 
 ## Changelog
 
+
+### v0.4
+
+- Se añade operaciones avanzadas al entorno de pruebas.
+
 ### v0.3
 
 - Se añaden operaciones básicas al entorno de pruebas.
