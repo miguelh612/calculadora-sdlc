@@ -8,13 +8,25 @@ def suma():
     return x + y
 
 def resta():
-    pass
+    system('cls')
+    print('### Resta ###\n')
+    x=int(input('Ingresa el primer número: '))
+    y=int(input('\nIngresa el segundo número: '))
+    return x - y
 
 def multiplicacion():
-    pass
+    system('cls')
+    print('### Multiplicación ###\n')
+    x=int(input('Ingresa el primer número: '))
+    y=int(input('\nIngresa el segundo número: '))
+    return x * y
 
 def division():
-    pass
+    system('cls')
+    print('### División ###\n')
+    x=int(input('Ingresa el primer número: '))
+    y=int(input('\nIngresa el segundo número: '))
+    return float(x / y)
 
 def raices():
     pass

@@ -14,6 +14,10 @@ Pequeño ejercicio practico
 
 ## Changelog
 
+### v0.3
+
+- Se añaden operaciones básicas al entorno de pruebas.
+
 ### v0.2
 
 - Se añade menú principal y operaciones junto a entorno de pruebas.

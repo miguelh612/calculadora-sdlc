@@ -23,13 +23,13 @@ def main(menu):
                     print(f'\nEl resultado de la suma es: {suma()}')
                     continuar()
                 case 2:
-                    resta()
+                    print(f'\nEl resultado de la resta es: {resta()}')
                     continuar()
                 case 3:
-                    multiplicacion()
+                    print(f'\nEl resultado de la multiplicación es: {multiplicacion()}')
                     continuar()
                 case 4:
-                    division()
+                    print(f'\nEl resultado de la división es: {division()}')
                     continuar()
                 case 5:
                     raices()
