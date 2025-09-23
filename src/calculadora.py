@@ -9,27 +9,27 @@ opciones=['suma',
           'potencias',
           'tablas de multiplicar']
 
-def main(opciones):
+def main(menu):
     system('cls')
     print('### Calculadora ###\n')
     print('Ingresa una opción:')
-    for i,opciones in enumerate(opciones):
-        print(f'{i}. {opciones.capitalize()}')
+    for i,opciones in enumerate(menu):
+        print(f'{i+1}. {opciones.capitalize()}')
     opt=int(input('\nIngresa una opción: '))
     match opt:
-        case 0:
-            suma()
         case 1:
-            resta()
+            suma()
         case 2:
-            multiplicacion()
+            resta()
         case 3:
-            division()
+            multiplicacion()
         case 4:
-            raices()
+            division()
         case 5:
-            potencias()
+            raices()
         case 6:
+            potencias()
+        case 7:
             tablas()
         case _:
             print('Opción no válida')

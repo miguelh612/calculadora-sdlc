@@ -1,5 +1,5 @@
 from os import system
-from ops import suma, resta, multiplicacion, division, raices, potencias, tablas
+from test_ops import suma, resta, multiplicacion, division, raices, potencias, tablas, continuar
 
 opciones=['suma',
           'resta',
@@ -9,29 +9,40 @@ opciones=['suma',
           'potencias',
           'tablas de multiplicar']
 
-def main(opciones):
-    system('cls')
-    print('### Calculadora ###\n')
-    print('Ingresa una opción:')
-    for i,opciones in enumerate(opciones):
-        print(f'{i}. {opciones.capitalize()}')
-    opt=int(input('\nIngresa una opción: '))
-    match opt:
-        case 0:
-            suma()
-        case 1:
-            resta()
-        case 2:
-            multiplicacion()
-        case 3:
-            division()
-        case 4:
-            raices()
-        case 5:
-            potencias()
-        case 6:
-            tablas()
-        case _:
+def main(menu):
+    while True:
+        try:
+            system('cls')
+            print('### Calculadora ###\n')
+            print('Ingresa una opción:')
+            for i,opciones in enumerate(menu):
+                print(f'{i+1}. {opciones.capitalize()}')
+            opt=int(input('\nIngresa una opción: '))
+            match opt:
+                case 1:
+                    print(f'\nEl resultado de la suma es: {suma()}')
+                    continuar()
+                case 2:
+                    resta()
+                    continuar()
+                case 3:
+                    multiplicacion()
+                    continuar()
+                case 4:
+                    division()
+                    continuar()
+                case 5:
+                    raices()
+                    continuar()
+                case 6:
+                    potencias()
+                    continuar()
+                case 7:
+                    tablas()
+                    continuar()
+                case _:
+                    print('Opción no válida')
+        except:
             print('Opción no válida')
 
 main(opciones)
