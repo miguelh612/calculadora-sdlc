@@ -4,13 +4,13 @@ Pequeño ejercicio practico
 
 ## Programa inlcuye
 
-- Suma
-- Resta
-- Division
-- multiplicacion
-- Raiz
-- potencia
-- Tablas de multiplicar
+- Suma ✅
+- Resta ✅
+- División ✅
+- Multiplicación ✅
+- Raiz ⏳
+- Potencia ⏳
+- Tablas de multiplicar ⏳
 
 ## Changelog
 
