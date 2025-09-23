@@ -27,6 +27,8 @@ def division():
     print('### División ###\n')
     x=int(input('Ingresa el primer número: '))
     y=int(input('\nIngresa el segundo número: '))
+    if y == 0:
+        return "Valor inválido, no divida por 0."
     return float(x / y)
 
 def raices():

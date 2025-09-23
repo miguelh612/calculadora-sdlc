@@ -14,6 +14,9 @@ Pequeño ejercicio practico
 
 ## Changelog
 
+### v0.5
+
+- Se mejora la opción de dividir y el manejo de excepciones.
 
 ### v0.4
 

@@ -42,7 +42,7 @@ def main(menu):
                     continuar()
                 case _:
                     print('Opción no válida')
-        except:
+        except ValueError:
             print('Opción no válida')
 
 main(opciones)
