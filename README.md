@@ -8,11 +8,15 @@ Pequeño ejercicio practico
 - Resta ✅
 - División ✅
 - Multiplicación ✅
-- Raiz ⏳
-- Potencia ⏳
-- Tablas de multiplicar ⏳
+- Raiz ✅
+- Potencia ✅
+- Tablas de multiplicar ✅
 
 ## Changelog
+
+### v0.7
+
+- Se añade opción de 'Salir'.
 
 ### v0.6
 

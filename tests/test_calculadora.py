@@ -7,7 +7,8 @@ opciones=['suma',
           'división',
           'raices',
           'potencias',
-          'tablas de multiplicar']
+          'tablas de multiplicar',
+          'salir']
 
 def main(menu):
     while True:
@@ -45,6 +46,11 @@ def main(menu):
                     resultado = tablas()
                     print(f'\nLa tabla es:\n{resultado}')
                     continuar()
+
+                case 8:
+                    system('cls')
+                    print('Fin del programa.')
+                    break
 
                 case _:
                     print('Opción no válida')
