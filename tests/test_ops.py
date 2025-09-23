@@ -33,38 +33,33 @@ def division():
 
 def raices():
     system('cls')
-    print('### Raíz Cuadrada ###\n')
-    try:
-        x = float(input('Ingresa el número para calcular la raíz cuadrada: '))
-        if x < 0:
-            return "Error: No se puede calcular la raíz cuadrada de un número negativo."
-        return f"La raíz cuadrada de {x} es: {math.sqrt(x)}"
-    except ValueError:
-        return "Error: Por favor, ingresa solo números."
+    print('### Raíz Enésima ###\n')
+    x = int(input('Ingresa el número para la raíz: '))
+    y = int(input('\nIngresa el exponente de la raíz (ej. 2 para raíz cuadrada): '))
+        
+    if y == 0:
+            return "Error: El exponente de la raíz no puede ser cero."
+    if x < 0 and y % 2 == 0:
+            return "Error: No se puede calcular una raíz par de un número negativo."
+    return x ** (1 / y)
 
 def potencias():
     system('cls')
     print('### Potencias ###\n')
-    try:
-        x = float(input('Ingresa la base: '))
-        y = float(input('\nIngresa el exponente: '))
-        return f"El resultado de {x} elevado a {y} es: {x ** y}"
-    except ValueError:
-        return "Error: Por favor, ingresa solo números."
+    x = int(input('Ingresa la base: '))
+    y = int(input('\nIngresa el exponente: '))
+    return x ** y
 
 def tablas():
     system('cls')
     print('### Tablas de Multiplicar ###\n')
-    try:
-        x = int(input('Ingresa el número de la tabla: '))
-        rango_final = int(input('Ingresa el rango final (ej. 10 para 1 a 10): '))
+    x = int(input('Ingresa el número de la tabla: '))
+    rango_final = int(input('Ingresa el rango final (ej. 10 para 1 a 10): '))
         
-        tabla_string = f"\nTabla del {x} (hasta {rango_final}):\n"
-        for i in range(1, rango_final + 1):
-            tabla_string += f"{x} x {i} = {x * i}\n"
-        return tabla_string
-    except ValueError:
-        return "Error: Por favor, ingresa números enteros."
+    tabla_string = f"\nTabla del {x} (hasta {rango_final}):\n"
+    for i in range(1, rango_final + 1):
+        tabla_string += f"{x} x {i} = {x * i}\n"
+    return tabla_string
 
 def continuar():
     input('\nPresiona ENTER para continuar...')

@@ -32,14 +32,20 @@ def main(menu):
                     print(f'\nEl resultado de la división es: {division()}')
                     continuar()
                 case 5:
-                    raices()
+                    resultado = raices()
+                    print(f'\nEl resultado de la raiz es: {resultado}')
                     continuar()
+
                 case 6:
-                    potencias()
+                    resultado = potencias()
+                    print(f'\nEl resultado de la potencia es: {resultado}')
                     continuar()
+
                 case 7:
-                    tablas()
+                    resultado = tablas()
+                    print(f'\nLa tabla es:\n{resultado}')
                     continuar()
+
                 case _:
                     print('Opción no válida')
         except ValueError:

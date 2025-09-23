@@ -14,6 +14,10 @@ Pequeño ejercicio practico
 
 ## Changelog
 
+### v0.6
+
+- Se mejora las funciones de Raíz, Potencia y Tablas de multiplicar, tambien se arreglo un problema el cual no permitia ver los resultados de estas ultimas 3 funciones.
+
 ### v0.5
 
 - Se mejora la opción de dividir y el manejo de excepciones.
